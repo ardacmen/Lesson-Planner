@@ -45,7 +45,7 @@
 		30B507C4295F8A6800205A85 /* YKS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YKS.xcdatamodel; sourceTree = "<group>"; };
 		30B507C6295F8A6A00205A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B507C9295F8A6A00205A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		30B507CB295F8A6A00205A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B507CB295F8A6A00205A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "YKS/App & Scene/Info.plist"; sourceTree = SOURCE_ROOT; };
 		30B507D0295F8A6A00205A85 /* YKSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B507D4295F8A6A00205A85 /* YKSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKSTests.swift; sourceTree = "<group>"; };
 		30B507DA295F8A6A00205A85 /* YKSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,14 +101,11 @@
 		30B507B9295F8A6800205A85 /* YKS */ = {
 			isa = PBXGroup;
 			children = (
-				30B507BA295F8A6800205A85 /* AppDelegate.swift */,
-				30B507BC295F8A6800205A85 /* SceneDelegate.swift */,
-				30B507BE295F8A6800205A85 /* ViewController.swift */,
-				30B507C0295F8A6800205A85 /* Main.storyboard */,
-				30B507C6295F8A6A00205A85 /* Assets.xcassets */,
-				30B507C8295F8A6A00205A85 /* LaunchScreen.storyboard */,
-				30B507CB295F8A6A00205A85 /* Info.plist */,
-				30B507C3295F8A6800205A85 /* YKS.xcdatamodeld */,
+				30B507F2295F8E6100205A85 /* Storyboards */,
+				30B507F1295F8E3500205A85 /* App & Scene */,
+				30B507F0295F8E2A00205A85 /* ViewModel */,
+				30B507EE295F8E1500205A85 /* View */,
+				30B507ED295F8E0D00205A85 /* Database */,
 			);
 			path = YKS;
 			sourceTree = "<group>";
@@ -128,6 +125,49 @@
 				30B507E0295F8A6A00205A85 /* YKSUITestsLaunchTests.swift */,
 			);
 			path = YKSUITests;
+			sourceTree = "<group>";
+		};
+		30B507ED295F8E0D00205A85 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				30B507C3295F8A6800205A85 /* YKS.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		30B507EE295F8E1500205A85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30B507BE295F8A6800205A85 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30B507F0295F8E2A00205A85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30B507F1295F8E3500205A85 /* App & Scene */ = {
+			isa = PBXGroup;
+			children = (
+				30B507C6295F8A6A00205A85 /* Assets.xcassets */,
+				30B507CB295F8A6A00205A85 /* Info.plist */,
+				30B507BC295F8A6800205A85 /* SceneDelegate.swift */,
+				30B507BA295F8A6800205A85 /* AppDelegate.swift */,
+			);
+			path = "App & Scene";
+			sourceTree = "<group>";
+		};
+		30B507F2295F8E6100205A85 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				30B507C8295F8A6A00205A85 /* LaunchScreen.storyboard */,
+				30B507C0295F8A6800205A85 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,12 +483,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2LZLJ23WR7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YKS/Info.plist;
+				INFOPLIST_FILE = "YKS/App & Scene/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +497,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ardacimen.YKS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,12 +515,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2LZLJ23WR7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = YKS/Info.plist;
+				INFOPLIST_FILE = "YKS/App & Scene/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,9 +529,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ardacimen.YKS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
