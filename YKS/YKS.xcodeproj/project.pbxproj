@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		304BCFC82962DAB5009C600F /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 304BCFC72962DAB5009C600F /* Charts */; };
-		304BCFCA2962DAB5009C600F /* ChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 304BCFC92962DAB5009C600F /* ChartsDynamic */; };
 		304BCFCC2962DB9A009C600F /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFCB2962DB9A009C600F /* MainPageViewController.swift */; };
 		304BCFCE2962DBAF009C600F /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */; };
+		304BCFD12962E666009C600F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFD02962E666009C600F /* Extensions.swift */; };
+		304BCFDD2962E93F009C600F /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */; };
+		304BCFDF2962E94F009C600F /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */; };
+		304BCFE12962E966009C600F /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE02962E966009C600F /* ChartsViewController.swift */; };
+		304BCFE52962E9AE009C600F /* AytTrialExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */; };
+		304BCFE72962E9C0009C600F /* TytTrialExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */; };
+		304BCFE92962E9D8009C600F /* TytDailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE82962E9D8009C600F /* TytDailyViewController.swift */; };
+		304BCFEB2962E9E3009C600F /* AytDailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFEA2962E9E3009C600F /* AytDailyViewController.swift */; };
+		304BCFED2962EB33009C600F /* UserSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */; };
+		304BCFF12962EB8B009C600F /* AppSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */; };
 		30B507BB295F8A6800205A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B507BA295F8A6800205A85 /* AppDelegate.swift */; };
 		30B507BD295F8A6800205A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B507BC295F8A6800205A85 /* SceneDelegate.swift */; };
 		30B507C2295F8A6800205A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B507C0295F8A6800205A85 /* Main.storyboard */; };
@@ -42,6 +50,16 @@
 /* Begin PBXFileReference section */
 		304BCFCB2962DB9A009C600F /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
+		304BCFD02962E666009C600F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
+		304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
+		304BCFE02962E966009C600F /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytTrialExamViewController.swift; sourceTree = "<group>"; };
+		304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytTrialExamViewController.swift; sourceTree = "<group>"; };
+		304BCFE82962E9D8009C600F /* TytDailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytDailyViewController.swift; sourceTree = "<group>"; };
+		304BCFEA2962E9E3009C600F /* AytDailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytDailyViewController.swift; sourceTree = "<group>"; };
+		304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsViewModel.swift; sourceTree = "<group>"; };
+		304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewModel.swift; sourceTree = "<group>"; };
 		30B507B7295F8A6800205A85 /* YKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B507BA295F8A6800205A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B507BC295F8A6800205A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304BCFC82962DAB5009C600F /* Charts in Frameworks */,
-				304BCFCA2962DAB5009C600F /* ChartsDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		304BCFCF2962E652009C600F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFD02962E666009C600F /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		30B507AE295F8A6800205A85 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +131,7 @@
 		30B507B9295F8A6800205A85 /* YKS */ = {
 			isa = PBXGroup;
 			children = (
+				304BCFCF2962E652009C600F /* Extensions */,
 				30B507F2295F8E6100205A85 /* Storyboards */,
 				30B507F1295F8E3500205A85 /* App & Scene */,
 				30B507F0295F8E2A00205A85 /* ViewModel */,
@@ -145,6 +170,13 @@
 			isa = PBXGroup;
 			children = (
 				304BCFCB2962DB9A009C600F /* MainPageViewController.swift */,
+				304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */,
+				304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */,
+				304BCFE02962E966009C600F /* ChartsViewController.swift */,
+				304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */,
+				304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */,
+				304BCFE82962E9D8009C600F /* TytDailyViewController.swift */,
+				304BCFEA2962E9E3009C600F /* AytDailyViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */,
+				304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */,
+				304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -194,8 +228,6 @@
 			);
 			name = YKS;
 			packageProductDependencies = (
-				304BCFC72962DAB5009C600F /* Charts */,
-				304BCFC92962DAB5009C600F /* ChartsDynamic */,
 			);
 			productName = YKS;
 			productReference = 30B507B7295F8A6800205A85 /* YKS.app */;
@@ -271,6 +303,8 @@
 			mainGroup = 30B507AE295F8A6800205A85;
 			packageReferences = (
 				304BCFC62962DAB5009C600F /* XCRemoteSwiftPackageReference "Charts" */,
+				304BCFD22962E837009C600F /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				304BCFD52962E847009C600F /* XCRemoteSwiftPackageReference "swift-numerics" */,
 			);
 			productRefGroup = 30B507B8295F8A6800205A85 /* Products */;
 			projectDirPath = "";
@@ -316,6 +350,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				304BCFCC2962DB9A009C600F /* MainPageViewController.swift in Sources */,
+				304BCFD12962E666009C600F /* Extensions.swift in Sources */,
+				304BCFE92962E9D8009C600F /* TytDailyViewController.swift in Sources */,
+				304BCFE72962E9C0009C600F /* TytTrialExamViewController.swift in Sources */,
+				304BCFF12962EB8B009C600F /* AppSettingsViewModel.swift in Sources */,
+				304BCFED2962EB33009C600F /* UserSettingsViewModel.swift in Sources */,
+				304BCFE52962E9AE009C600F /* AytTrialExamViewController.swift in Sources */,
+				304BCFDD2962E93F009C600F /* UserSettingsViewController.swift in Sources */,
+				304BCFE12962E966009C600F /* ChartsViewController.swift in Sources */,
+				304BCFEB2962E9E3009C600F /* AytDailyViewController.swift in Sources */,
+				304BCFDF2962E94F009C600F /* AppSettingsViewController.swift in Sources */,
 				30B507BB295F8A6800205A85 /* AppDelegate.swift in Sources */,
 				304BCFCE2962DBAF009C600F /* MainPageViewModel.swift in Sources */,
 				30B507BD295F8A6800205A85 /* SceneDelegate.swift in Sources */,
@@ -679,20 +723,23 @@
 				kind = branch;
 			};
 		};
+		304BCFD22962E837009C600F /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		304BCFD52962E847009C600F /* XCRemoteSwiftPackageReference "swift-numerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-numerics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		304BCFC72962DAB5009C600F /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 304BCFC62962DAB5009C600F /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-		304BCFC92962DAB5009C600F /* ChartsDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 304BCFC62962DAB5009C600F /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = ChartsDynamic;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		30B507C3295F8A6800205A85 /* YKS.xcdatamodeld */ = {
