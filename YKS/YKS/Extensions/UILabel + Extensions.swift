@@ -1,22 +1,12 @@
 //
-//  Extensions.swift
+//  UILabel + Extensions.swift
 //  YKS
 //
-//  Created by Arda Çimen on 2.01.2023.
+//  Created by Arda Çimen on 7.01.2023.
 //
-import UIKit.UIAlertController
 
-extension UIViewController {
-
-    func makeAlert(titleInput:String, messageInput:String) {
-            let alert = UIAlertController(title: titleInput, message: messageInput, preferredStyle: UIAlertController.Style.alert)
-                        let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
-                        alert.addAction(okButton)
-                        self.present(alert, animated: true, completion: nil)
-        }
-  }
-
-
+import Foundation
+import UIKit.UILabel
 
 extension UILabel {
     
@@ -44,5 +34,3 @@ extension UILabel {
         self.attributedText = mutableAttributedString
     }
 }
-
-

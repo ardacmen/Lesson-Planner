@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		304BCFCC2962DB9A009C600F /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFCB2962DB9A009C600F /* MainPageViewController.swift */; };
 		304BCFCE2962DBAF009C600F /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */; };
-		304BCFD12962E666009C600F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFD02962E666009C600F /* Extensions.swift */; };
 		304BCFDD2962E93F009C600F /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */; };
 		304BCFDF2962E94F009C600F /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */; };
 		304BCFE12962E966009C600F /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE02962E966009C600F /* ChartsViewController.swift */; };
 		304BCFE52962E9AE009C600F /* AytTrialExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */; };
 		304BCFE72962E9C0009C600F /* TytTrialExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */; };
-		304BCFE92962E9D8009C600F /* TytDailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE82962E9D8009C600F /* TytDailyViewController.swift */; };
-		304BCFEB2962E9E3009C600F /* AytDailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFEA2962E9E3009C600F /* AytDailyViewController.swift */; };
+		304BCFE92962E9D8009C600F /* DailyQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFE82962E9D8009C600F /* DailyQuestionViewController.swift */; };
 		304BCFED2962EB33009C600F /* UserSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */; };
 		304BCFF12962EB8B009C600F /* AppSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */; };
+		3097E1C029697E5A007B694B /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097E1BF29697E5A007B694B /* UIViewController + Extensions.swift */; };
+		3097E1C229697E70007B694B /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097E1C129697E70007B694B /* UILabel + Extensions.swift */; };
+		3097E1CF29697F75007B694B /* enter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3097E1CD29697F75007B694B /* enter.jpeg */; };
+		3097E1D029697F75007B694B /* check.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3097E1CE29697F75007B694B /* check.jpeg */; };
 		30B507BB295F8A6800205A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B507BA295F8A6800205A85 /* AppDelegate.swift */; };
 		30B507BD295F8A6800205A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B507BC295F8A6800205A85 /* SceneDelegate.swift */; };
 		30B507C2295F8A6800205A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B507C0295F8A6800205A85 /* Main.storyboard */; };
@@ -50,16 +52,18 @@
 /* Begin PBXFileReference section */
 		304BCFCB2962DB9A009C600F /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
-		304BCFD02962E666009C600F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
 		304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 		304BCFE02962E966009C600F /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytTrialExamViewController.swift; sourceTree = "<group>"; };
 		304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytTrialExamViewController.swift; sourceTree = "<group>"; };
-		304BCFE82962E9D8009C600F /* TytDailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytDailyViewController.swift; sourceTree = "<group>"; };
-		304BCFEA2962E9E3009C600F /* AytDailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytDailyViewController.swift; sourceTree = "<group>"; };
+		304BCFE82962E9D8009C600F /* DailyQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuestionViewController.swift; sourceTree = "<group>"; };
 		304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsViewModel.swift; sourceTree = "<group>"; };
 		304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewModel.swift; sourceTree = "<group>"; };
+		3097E1BF29697E5A007B694B /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		3097E1C129697E70007B694B /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
+		3097E1CD29697F75007B694B /* enter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enter.jpeg; sourceTree = "<group>"; };
+		3097E1CE29697F75007B694B /* check.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = check.jpeg; sourceTree = "<group>"; };
 		30B507B7295F8A6800205A85 /* YKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B507BA295F8A6800205A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B507BC295F8A6800205A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +107,92 @@
 		304BCFCF2962E652009C600F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				304BCFD02962E666009C600F /* Extensions.swift */,
+				3097E1BF29697E5A007B694B /* UIViewController + Extensions.swift */,
+				3097E1C129697E70007B694B /* UILabel + Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3097E1C329697E94007B694B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				3097E1D12969868C007B694B /* DailyQuestion */,
+				3097E1CB29697EF2007B694B /* TytTrialExam */,
+				3097E1C829697ED2007B694B /* AytTrialExam */,
+				3097E1C729697EC9007B694B /* Charts */,
+				3097E1C629697EB0007B694B /* AppSettings */,
+				3097E1C529697EA4007B694B /* UserSettings */,
+				3097E1C429697E99007B694B /* MainPage */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		3097E1C429697E99007B694B /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFCB2962DB9A009C600F /* MainPageViewController.swift */,
+				304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		3097E1C529697EA4007B694B /* UserSettings */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */,
+				304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */,
+			);
+			path = UserSettings;
+			sourceTree = "<group>";
+		};
+		3097E1C629697EB0007B694B /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */,
+				304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		3097E1C729697EC9007B694B /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFE02962E966009C600F /* ChartsViewController.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		3097E1C829697ED2007B694B /* AytTrialExam */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */,
+			);
+			path = AytTrialExam;
+			sourceTree = "<group>";
+		};
+		3097E1CB29697EF2007B694B /* TytTrialExam */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */,
+			);
+			path = TytTrialExam;
+			sourceTree = "<group>";
+		};
+		3097E1CC29697F5A007B694B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3097E1CE29697F75007B694B /* check.jpeg */,
+				3097E1CD29697F75007B694B /* enter.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3097E1D12969868C007B694B /* DailyQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				304BCFE82962E9D8009C600F /* DailyQuestionViewController.swift */,
+			);
+			path = DailyQuestion;
 			sourceTree = "<group>";
 		};
 		30B507AE295F8A6800205A85 = {
@@ -131,11 +218,11 @@
 		30B507B9295F8A6800205A85 /* YKS */ = {
 			isa = PBXGroup;
 			children = (
+				3097E1CC29697F5A007B694B /* Images */,
+				3097E1C329697E94007B694B /* Scene */,
 				304BCFCF2962E652009C600F /* Extensions */,
 				30B507F2295F8E6100205A85 /* Storyboards */,
 				30B507F1295F8E3500205A85 /* App & Scene */,
-				30B507F0295F8E2A00205A85 /* ViewModel */,
-				30B507EE295F8E1500205A85 /* View */,
 				30B507ED295F8E0D00205A85 /* Database */,
 			);
 			path = YKS;
@@ -164,31 +251,6 @@
 				30B507C3295F8A6800205A85 /* YKS.xcdatamodeld */,
 			);
 			path = Database;
-			sourceTree = "<group>";
-		};
-		30B507EE295F8E1500205A85 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				304BCFCB2962DB9A009C600F /* MainPageViewController.swift */,
-				304BCFDC2962E93F009C600F /* UserSettingsViewController.swift */,
-				304BCFDE2962E94F009C600F /* AppSettingsViewController.swift */,
-				304BCFE02962E966009C600F /* ChartsViewController.swift */,
-				304BCFE42962E9AE009C600F /* AytTrialExamViewController.swift */,
-				304BCFE62962E9C0009C600F /* TytTrialExamViewController.swift */,
-				304BCFE82962E9D8009C600F /* TytDailyViewController.swift */,
-				304BCFEA2962E9E3009C600F /* AytDailyViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		30B507F0295F8E2A00205A85 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				304BCFCD2962DBAF009C600F /* MainPageViewModel.swift */,
-				304BCFEC2962EB33009C600F /* UserSettingsViewModel.swift */,
-				304BCFF02962EB8B009C600F /* AppSettingsViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		30B507F1295F8E3500205A85 /* App & Scene */ = {
@@ -322,7 +384,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3097E1CF29697F75007B694B /* enter.jpeg in Resources */,
 				30B507CA295F8A6A00205A85 /* LaunchScreen.storyboard in Resources */,
+				3097E1D029697F75007B694B /* check.jpeg in Resources */,
 				30B507C7295F8A6A00205A85 /* Assets.xcassets in Resources */,
 				30B507C2295F8A6800205A85 /* Main.storyboard in Resources */,
 			);
@@ -350,15 +414,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				304BCFCC2962DB9A009C600F /* MainPageViewController.swift in Sources */,
-				304BCFD12962E666009C600F /* Extensions.swift in Sources */,
-				304BCFE92962E9D8009C600F /* TytDailyViewController.swift in Sources */,
+				304BCFE92962E9D8009C600F /* DailyQuestionViewController.swift in Sources */,
 				304BCFE72962E9C0009C600F /* TytTrialExamViewController.swift in Sources */,
 				304BCFF12962EB8B009C600F /* AppSettingsViewModel.swift in Sources */,
 				304BCFED2962EB33009C600F /* UserSettingsViewModel.swift in Sources */,
+				3097E1C029697E5A007B694B /* UIViewController + Extensions.swift in Sources */,
 				304BCFE52962E9AE009C600F /* AytTrialExamViewController.swift in Sources */,
+				3097E1C229697E70007B694B /* UILabel + Extensions.swift in Sources */,
 				304BCFDD2962E93F009C600F /* UserSettingsViewController.swift in Sources */,
 				304BCFE12962E966009C600F /* ChartsViewController.swift in Sources */,
-				304BCFEB2962E9E3009C600F /* AytDailyViewController.swift in Sources */,
 				304BCFDF2962E94F009C600F /* AppSettingsViewController.swift in Sources */,
 				30B507BB295F8A6800205A85 /* AppDelegate.swift in Sources */,
 				304BCFCE2962DBAF009C600F /* MainPageViewModel.swift in Sources */,

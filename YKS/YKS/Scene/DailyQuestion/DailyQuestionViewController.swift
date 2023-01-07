@@ -1,5 +1,5 @@
 //
-//  AytDailyViewController.swift
+//  TytDailyViewController.swift
 //  YKS
 //
 //  Created by Arda Çimen on 2.01.2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AytDailyViewController: UIViewController {
+class DailyQuestionViewController: UIViewController {
 
     
     let mainPageViewController = MainPageViewController()
@@ -19,7 +19,6 @@ class AytDailyViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         configure()
     }
-    
 
     private func configure()
     {

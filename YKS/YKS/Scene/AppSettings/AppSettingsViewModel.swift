@@ -10,11 +10,8 @@ import UIKit.UIApplication
 
 final class AppSettingsViewModel
 {
-    func sendFeedBack()
-    {
-        let url = URL(string: "http://www.hypersuperprojects.com/contact/")!
-               UIApplication.shared.open(url)
-    }
+   
+    
     
     
 }

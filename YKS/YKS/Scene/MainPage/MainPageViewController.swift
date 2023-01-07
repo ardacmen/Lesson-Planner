@@ -9,20 +9,25 @@ import UIKit
 
 class MainPageViewController: UIViewController {
 
+    
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var trialImageView: UIImageView!
+    @IBOutlet weak var entryImageView: UIImageView!
+    @IBOutlet weak var trialButton: UIButton!
+    @IBOutlet weak var entryButton: UIButton!
+    @IBOutlet weak var dailyQuestionFocus: UILabel!
+    @IBOutlet weak var weeklyQuestionFocus: UILabel!
+    
     let darkMode = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        configure()
-    }
     
     private func configure()
     {
-        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap)))
-         if darkMode.bool(forKey: "darkMode") == true
+        if UserDefaults.standard.bool(forKey: "darkMode") == true
          {
             overrideUserInterfaceStyle = .dark
              self.navigationItem.rightBarButtonItem?.tintColor = .white
@@ -36,13 +41,12 @@ class MainPageViewController: UIViewController {
              self.navigationItem.leftBarButtonItem?.tintColor = .black
              self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
          }
+        
+        trialImageView.layer.cornerRadius = 20
+        entryImageView.layer.cornerRadius = 20
     }
         
-    
-    @objc func tap(sender: UITapGestureRecognizer)
-    {
-            view.endEditing(true)
-    }
+
 
 
 }
